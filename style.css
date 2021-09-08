@@ -1,0 +1,50 @@
+.icons ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.icons li {
+    float: left;
+    margin-right: 10px;
+}
+
+.icons li:last-child {
+    margin-right: 0;
+}
+
+.icons ul li a {
+    background-image: url("icon.png");
+    background-repeat: none;
+    width: 83px;
+    height: 83px;
+    display: inline-block;
+    border-radius: 50%;
+    cursor: pointer;
+    background-position: 0 0;
+    transition: all ease 0.5s;
+    zoom: 0.5;
+}
+
+.icons ul li:nth-child(2) a {
+    background-position: -170px 0;
+}
+
+.icons ul li:nth-child(3) a {
+    background-position: -250px 0;
+}
+
+
+/* ---------------------------*/
+
+.icons ul li:nth-child(1):hover a {
+    background-position: 0 -83px;
+}
+
+.icons ul li:nth-child(2):hover a {
+    background-position: -170px -83px;
+}
+
+.icons ul li:nth-child(3):hover a {
+    background-position: -250px -82px;
+}
